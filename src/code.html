@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Amul Kool Gold - Exotic Rose</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-container": "#735a00",
+                      "surface-tint": "#ab2c5d",
+                      "on-error": "#ffffff",
+                      "on-background": "#2b1613",
+                      "background": "#fff8f6",
+                      "on-primary-fixed": "#3f001b",
+                      "tertiary-fixed": "#e6e2d9",
+                      "outline-variant": "#ddbfc5",
+                      "surface-bright": "#fff8f6",
+                      "on-tertiary": "#ffffff",
+                      "secondary-container": "#fcd358",
+                      "tertiary-fixed-dim": "#c9c6be",
+                      "on-tertiary-fixed": "#1c1c17",
+                      "error": "#ba1a1a",
+                      "secondary-fixed": "#ffe08b",
+                      "on-surface": "#2b1613",
+                      "primary-container": "#f06292",
+                      "on-secondary": "#ffffff",
+                      "primary-fixed-dim": "#ffb1c5",
+                      "on-primary": "#ffffff",
+                      "on-secondary-fixed": "#241a00",
+                      "inverse-surface": "#422a26",
+                      "surface-container-low": "#fff0ee",
+                      "primary-fixed": "#ffd9e1",
+                      "surface": "#fff8f6",
+                      "on-secondary-fixed-variant": "#584400",
+                      "surface-dim": "#f8d1cb",
+                      "on-primary-container": "#5e002b",
+                      "secondary": "#745b00",
+                      "outline": "#8a7176",
+                      "surface-container": "#ffe9e5",
+                      "secondary-fixed-dim": "#eac249",
+                      "on-surface-variant": "#574146",
+                      "on-primary-fixed-variant": "#8b0e45",
+                      "surface-container-highest": "#ffdad4",
+                      "on-error-container": "#93000a",
+                      "surface-container-lowest": "#ffffff",
+                      "on-tertiary-container": "#2d2c27",
+                      "surface-variant": "#ffdad4",
+                      "error-container": "#ffdad6",
+                      "inverse-on-surface": "#ffedea",
+                      "primary": "#ab2c5d",
+                      "on-tertiary-fixed-variant": "#484741",
+                      "surface-container-high": "#ffe2dd",
+                      "tertiary-container": "#96938c",
+                      "tertiary": "#605e58",
+                      "inverse-primary": "#ffb1c5"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "margin-mobile": "16px",
+                      "base": "8px",
+                      "margin-desktop": "64px",
+                      "xs": "4px",
+                      "sm": "12px",
+                      "xl": "80px",
+                      "lg": "48px",
+                      "md": "24px"
+              },
+              "fontFamily": {
+                      "headline-lg-mobile": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "body-md": [
+                              "Manrope"
+                      ],
+                      "headline-md": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "label-sm": [
+                              "Manrope"
+                      ],
+                      "headline-lg": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "label-md": [
+                              "Manrope"
+                      ],
+                      "display-lg": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "body-lg": [
+                              "Manrope"
+                      ]
+              },
+              "fontSize": {
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.08em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg": [
+                              "56px",
+                              {
+                                      "lineHeight": "64px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;family=Manrope:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #fff8f6; /* background */
+            color: #2b1613; /* on-background */
+        }
+        h1, h2, h3, h4, h5, h6, .font-display-lg, .font-headline-lg, .font-headline-md, .font-headline-lg-mobile {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-md full-width top-0 z-50 sticky border-b border-outline-variant/30 dark:border-outline/20 shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-base max-w-7xl mx-auto w-full">
+<a class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim" href="#">
+                Amul Kool Gold
+            </a>
+<div class="hidden md:flex space-x-lg">
+<a class="text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim font-bold font-label-md text-label-md transition-colors duration-200" href="#">Flavor</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-label-md text-label-md hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200" href="#">Benefits</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-label-md text-label-md hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200" href="#">Store Locator</a>
+</div>
+<button class="bg-primary text-on-primary rounded-full px-lg py-sm font-label-md text-label-md scale-95 active:scale-90 transition-transform hover:opacity-90">
+                Buy Now
+            </button>
+</div>
+</nav>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative pt-xl pb-xl md:pt-[120px] md:pb-[120px] px-margin-mobile md:px-margin-desktop overflow-hidden flex items-center min-h-[80vh]">
+<div class="absolute inset-0 z-0 bg-surface-container-low opacity-50 pointer-events-none"></div>
+<div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-xl relative z-10 items-center">
+<div class="flex flex-col items-start gap-md order-2 lg:order-1">
+<span class="bg-primary-container/20 text-primary px-sm py-xs rounded-full font-label-sm text-label-sm uppercase tracking-wider">New Flavor</span>
+<h1 class="font-display-lg text-display-lg text-on-surface">Exotic Rose. Pure Milk. Pure Refreshment.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">Discover the creamy, floral bliss of Amul Kool Gold - now in Exotic Rose flavor. A perfect blend of rich milk and fragrant rose petals, chilled to perfection.</p>
+<div class="flex gap-sm mt-sm">
+<button class="bg-primary text-on-primary rounded-full px-lg py-sm font-label-md text-label-md shadow-md hover:bg-primary/90 transition-colors">
+                            Order Online
+                        </button>
+<button class="border border-secondary text-secondary rounded-full px-lg py-sm font-label-md text-label-md hover:bg-secondary-container hover:text-on-secondary-container transition-colors">
+                            Discover More
+                        </button>
+</div>
+</div>
+<div class="relative order-1 lg:order-2 flex justify-center items-center h-[500px] lg:h-[600px]">
+<!-- Decorative blurred blob -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-primary-container/30 rounded-full blur-3xl pointer-events-none"></div>
+<img alt="Amul Kool Gold Rose Flavor Bottle" class="relative z-10 h-full object-contain filter drop-shadow-2xl animate-float" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBo_-mXeghZetvNiZkxqlSnCAjj40zt5Rk4rlGFexoa6l9_jppvp0Lu9hPPNg7ZRQMcPp2OouuRhUOJytNbay6dbKCqvLeMqFPgotduZ_BjOyVXds3ldQaCGWsIkPPUbQbBr7O6KPoZoSdf_typxhofr9rUyNw5cRWHfbhoqtiO2UhmhDlPWetwbL7oPMBCgdxn87AA3H1M9Qw0Fahe6fQZBGfMsib6-6c1bzE_0LnO9JQNiTBvw52iZs4-p2E2IgEAVocdMJ23Ml1v"/>
+</div>
+</div>
+</section>
+<!-- Product Features (Bento Grid) -->
+<section class="py-xl px-margin-mobile md:px-margin-desktop bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-xl">
+<h2 class="font-headline-lg text-headline-lg md:text-display-lg text-on-surface mb-sm">The Gold Standard of Refreshment</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">Experience the perfect harmony of taste and quality in every sip.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Feature 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-md shadow-sm border border-outline-variant/20 flex flex-col items-center text-center hover:shadow-md transition-shadow">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center mb-md text-primary">
+<span class="material-symbols-outlined text-[32px]">water_drop</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-xs">100% Real Milk</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Sourced from the finest dairy, providing rich, creamy texture and essential nutrients.</p>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-md shadow-sm border border-outline-variant/20 flex flex-col items-center text-center hover:shadow-md transition-shadow">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center mb-md text-primary">
+<span class="material-symbols-outlined text-[32px]">local_florist</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-xs">Naturally Flavorful</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Infused with real rose extract for an authentic, floral aroma and sweet, delicate taste.</p>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-md shadow-sm border border-outline-variant/20 flex flex-col items-center text-center hover:shadow-md transition-shadow">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center mb-md text-primary">
+<span class="material-symbols-outlined text-[32px]">ac_unit</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-xs">Refreshing Anytime</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Best served chilled. The perfect companion to cool down on a warm day or complement a spicy meal.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About the Flavor -->
+<section class="py-xl px-margin-mobile md:px-margin-desktop bg-surface-container-low relative overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-xl items-center relative z-10">
+<div class="rounded-xl overflow-hidden shadow-lg h-[400px] lg:h-[500px] relative">
+<div class="absolute inset-0 bg-primary/10 mix-blend-overlay z-10"></div>
+<img class="w-full h-full object-cover" data-alt="A high-quality, close-up macro shot of fresh, dewy pink rose petals gently floating on the surface of creamy, pale pink milk. The lighting is soft, natural, and high-key, creating a delicate, luxurious, and light-mode aesthetic. The color palette is restricted to pure whites, creamy off-whites, and soft blush pinks. The mood is indulgent, refreshing, and sophisticated, perfectly capturing the essence of a premium chilled rose beverage." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1cAoW8o6YMLF5I4c_yIgrcAregniWJKRamsx89SdT-qA1JkL0aAJ5nLWoYN91LMp1bJaQ0LS9A1y5zrjSzxnw1_bzh7AElr2SKR1oW0bMTeRg6RGMIzSpxaL35_3rTtymyek6hP9bZoOsuL5IsKq1lrl6wKLSXYW_1IWXli7bvBvv3oGe-bej691-nRApS17TDnhGzgKw1zMvs5IxBp58VVpa0ECG9GqBmKr4-PyAiLgjJxRx9WRrHHT4CVMa8DhoKP0-zQSxLIou"/>
+</div>
+<div class="flex flex-col gap-md">
+<h2 class="font-headline-lg text-headline-lg md:text-display-lg text-on-surface">A Symphony of Rose and Cream</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Every bottle of Amul Kool Gold Exotic Rose is crafted to deliver a sensory experience. The delicate, sweet notes of exotic roses are perfectly balanced with the richness of pure, chilled milk.</p>
+<p class="font-body-md text-body-md text-on-surface-variant">It's not just a drink; it's a moment of luxurious pause in your busy day. The velvety texture coats your palate while the floral aroma refreshes your senses.</p>
+<div class="mt-sm flex gap-sm flex-wrap">
+<span class="bg-primary/10 text-primary px-sm py-xs rounded-full font-label-sm text-label-sm">Floral Notes</span>
+<span class="bg-primary/10 text-primary px-sm py-xs rounded-full font-label-sm text-label-sm">Creamy Texture</span>
+<span class="bg-primary/10 text-primary px-sm py-xs rounded-full font-label-sm text-label-sm">Chilled Perfection</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery / Lifestyle -->
+<section class="py-xl px-margin-mobile md:px-margin-desktop bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="mb-xl text-center">
+<h2 class="font-headline-lg text-headline-lg md:text-display-lg text-on-surface mb-sm">Share the Refreshment</h2>
+</div>
+<!-- Asymmetric Masonry-style Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter auto-rows-[250px]">
+<div class="md:col-span-2 md:row-span-2 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all group relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A stylish, modern young woman enjoying a chilled bottle of Amul Kool Gold Rose outdoors on a sunny, bright day. She is smiling gently, wearing light pastel clothing that complements the drink. The setting is a chic, modern outdoor cafe with white marble tables. The lighting is bright, natural sunlight, creating a high-key, fresh, and airy light-mode aesthetic with soft pink and cream tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtbohnUKbsCgKS2QpLaDhHMCwkiiS0Oh6hUBUmR3pGXT5lr76Iom3AgqgLfKyBPu68CrmXY9iD1sgKs7ff5RSKtCOMzijslYiDJ2yC01hjoEPfJT6F6e1CpSzWJDbfvdtCr6IyoP6K2SK2x9FeE8Uw0nyPWaTUxvoB7-I-1FjYF2UptVUs1FSeMjY-jmvKg_nAjg6lFB5znY8nDCRNxSy3bFOfLgg6MSE7GSXMxABioxbVEmQPHU_OXCBoBCo7lRBuQfBGzbvx1v8z"/>
+</div>
+<div class="rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all group relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A close-up lifestyle shot of a glass filled with a creamy pink rose milk beverage, condensation forming on the outside of the cold glass. Next to it rests the Amul Kool Gold Rose bottle. The background is a beautifully blurred, minimalist kitchen counter in creamy white and soft beige tones. The lighting is soft morning light, evoking a fresh, clean, and premium light-mode aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV2xezY89_GGehOX3Yj56aUdRl5daiOelp3PgeGxkTvW7B1t18thYcKDZhiLAECAJ0PTC3c9sx5Njyf9jZZQFctQFNBQMzXzlI-bPLZN7sBgsFyURH0kJ_L-Dy4h1Egw7b-ENbRk8W_VktG7u8ctxJiCNXN1rLTOFE0doWTBVp_Qjwh8afC5lLE1y3Ik-jh-N5Ljc6XgToPoH6rkmVfj9Fhvbmma5ipXDbq77BoQa-cgZbqHE23XlzQLTFPSwP7SgpZUAKcXh4a4bJ"/>
+</div>
+<div class="rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all group relative">
+<div class="absolute inset-0 bg-primary/5 flex flex-col items-center justify-center p-md text-center z-10">
+<span class="material-symbols-outlined text-[48px] text-primary mb-sm">favorite</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Loved by Millions</h3>
+</div>
+<div class="w-full h-full bg-surface-container-lowest"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-xl px-margin-mobile md:px-margin-desktop bg-surface-container relative overflow-hidden">
+<!-- Decorative elements -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-fixed/40 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+<div class="absolute bottom-0 left-0 w-80 h-80 bg-secondary-fixed/30 rounded-full blur-3xl translate-y-1/3 -translate-x-1/4"></div>
+<div class="max-w-3xl mx-auto text-center relative z-10">
+<h2 class="font-display-lg text-display-lg text-on-surface mb-md">Ready for a Taste of Gold?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-lg">Available at leading supermarkets and convenience stores near you.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-sm">
+<button class="bg-primary text-on-primary rounded-full px-xl py-sm font-label-md text-label-md shadow-md hover:bg-primary/90 transition-colors flex items-center justify-center gap-xs">
+<span class="material-symbols-outlined text-[20px]">storefront</span>
+                         Find a Store Near You
+                     </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-highest full-width border-t border-surface-container-low dark:border-surface-container-highest">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-lg px-margin-mobile md:px-margin-desktop py-xl max-w-7xl mx-auto w-full">
+<div class="flex flex-col gap-sm">
+<span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">Amul Kool Gold</span>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-fixed-variant opacity-80 hover:opacity-100 transition-opacity">
+                    © 2024 Amul Kool. All Rights Reserved.
+                </p>
+</div>
+<div class="flex flex-col gap-sm">
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-secondary dark:hover:text-secondary-fixed-dim hover:underline transition-all opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-secondary dark:hover:text-secondary-fixed-dim hover:underline transition-all opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col gap-sm">
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-secondary dark:hover:text-secondary-fixed-dim hover:underline transition-all opacity-80 hover:opacity-100" href="#">Contact Us</a>
+<a class="font-label-sm text-label-sm text-primary dark:text-primary-fixed-dim font-bold hover:text-secondary dark:hover:text-secondary-fixed-dim hover:underline transition-all opacity-80 hover:opacity-100" href="#">Store Locator</a>
+</div>
+</div>
+</footer>
+<style>
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</body></html>
